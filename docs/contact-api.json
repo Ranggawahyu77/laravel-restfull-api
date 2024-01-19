@@ -44,7 +44,7 @@
           }
         },
         "responses": {
-          "200": {
+          "201": {
             "description": "Success create new contact",
             "content": {
               "application/json": {
