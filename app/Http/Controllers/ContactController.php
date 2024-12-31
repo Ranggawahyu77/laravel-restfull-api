@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Contact;
-use Illuminate\Http\Request;
-use Illuminate\Http\JsonResponse;
-use Illuminate\Support\Facades\Auth;
-use App\Http\Resources\ContactResource;
 use App\Http\Requests\ContactCreateRequest;
 use App\Http\Requests\ContactUpdateRequest;
 use App\Http\Resources\ContactCollection;
+use App\Http\Resources\ContactResource;
+use App\Models\Contact;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Exceptions\HttpResponseException;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class ContactController extends Controller
 {
